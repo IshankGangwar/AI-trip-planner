@@ -57,40 +57,5 @@ pip install -r requirements.txt
 
 ### Option 2: Use OpenAI GPT-4 via API Key
 
-Option 2: Use OpenAI GPT-4 via API Key
-Create a .env File in the Project Root
+<img width="536" height="627" alt="Screenshot 2025-08-07 175537" src="https://github.com/user-attachments/assets/960ada4e-1183-480d-9832-9ad90fddfe06" />
 
-env
-Copy
-Edit
-OPENAI_API_KEY=your_openai_key_here
-Modify trip_backend.py
-
-Replace this:
-
-python
-Copy
-Edit
-from langchain_community.llms import Ollama
-llm = Ollama(model="llama3.2")
-With this:
-
-python
-Copy
-Edit
-from langchain.chat_models import ChatOpenAI
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-llm = ChatOpenAI(
-    model="gpt-4",
-    openai_api_key=os.getenv("OPENAI_API_KEY")
-)
-Run the App
-
-bash
-Copy
-Edit
-streamlit run app.py
