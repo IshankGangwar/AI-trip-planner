@@ -60,12 +60,12 @@ pip install -r requirements.txt
 <img width="536" height="627" alt="Screenshot 2025-08-07 175537" src="https://github.com/user-attachments/assets/960ada4e-1183-480d-9832-9ad90fddfe06" />
 
 ### 🛠️ Tech Stack
-Tool	Purpose
-🧠 **LangChain**	LLM prompt chaining
-🦙 **Ollama + LLaMA 3.2**	Local language model
-💬 **Streamlit**	Frontend + UI
-🧾 **reportlab**	PDF generation
-☁️ **dotenv**	Env variable management
+🧠 **LangChain**    LLM prompt chaining<br>
+🦙 **Ollama + LLaMA 3.2**    Local language model<br>
+💬 **Streamlit**    Frontend + UI<br>
+🧾 **reportlab**    PDF generation<br>
+☁️ **dotenv**    Env variable management<br>
 
 ### 🙌 Author
 Made with ❤️ by **Ishank Gangwar**
+
