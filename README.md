@@ -62,6 +62,8 @@ pip install -r requirements.txt
 2. Modify trip_backend.py
 
     Replace this:
+
+    ```python
  from langchain_community.llms import Ollama
    llm = Ollama(model="llama3.2")
 
@@ -74,11 +76,13 @@ pip install -r requirements.txt
     llm = ChatOpenAI(
     model="gpt-4",
     openai_api_key=os.getenv("OPENAI_API_KEY")
-   
 
-3. Run the App
+   ---
+
+4. Run the App
 
    `streamlit run app.py`
+
 
 
 
